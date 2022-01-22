@@ -17,8 +17,8 @@ from pytgcalls.types.input_stream.quality import (HighQualityAudio,
                                                   MediumQualityVideo)
 from pytgcalls.types.stream import StreamAudioEnded, StreamVideoEnded
 
-from config import STRING1, STRING2, STRING3, STRING4, STRING5, get_queue
-from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
+from config import STRING1,  get_queue
+from Yukki import (ASS_CLI_1, 
                    MUSIC_BOT_NAME, app, db_mem)
 from Yukki.Core.PyTgCalls import Queues
 from Yukki.Core.PyTgCalls.Converter import convert
@@ -36,10 +36,6 @@ from Yukki.Utilities.youtube import get_m3u8, get_yt_info_id
 
 ### Clients
 pytgcalls1 = PyTgCalls(ASS_CLI_1)
-pytgcalls2 = PyTgCalls(ASS_CLI_2)
-pytgcalls3 = PyTgCalls(ASS_CLI_3)
-pytgcalls4 = PyTgCalls(ASS_CLI_4)
-pytgcalls5 = PyTgCalls(ASS_CLI_5)
 
 ### Multi Assistant start
 
